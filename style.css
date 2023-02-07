@@ -1,0 +1,65 @@
+.calc-body {
+    width: 275px;
+    margin: auto;
+    min-height: 400px;
+    box-shadow: 0 8px 50px -7px black;
+    background:lightgray;
+}
+/*Calculator Display Screen*/
+#calc-screen {
+    padding: 1rem;
+}
+#calc-operation {
+    font-size: 1.3rem;
+    text-align: right;
+    color: #727B86;
+    padding-bottom: .5rem;
+}
+ #result {
+    /* font-size: 2rem;
+    width:auto
+     //color:black;
+    background-color:silver; */
+    background-color: silver;
+    width: 245px;
+    height: 40px;
+    
+    
+}  
+/*Calculator Buttons*/
+.calc-button-row{
+    display: table;
+}
+.calc-button-row button {
+    display: table-cell;
+    width: 25%;
+    background:lightgrey;
+    color:black;
+    height: 65px;   
+    border-width: 1px 1px 0px 0;
+    
+}
+#clear {
+    color: #ff7665;
+}
+
+
+/*The border has been managed in every fourth button so that the design will not distract.*/
+.calc-button-row button:nth-child(4n){
+    border-right: none;
+}
+.calc-button-row button:active {
+    position: relative;
+    top: 1px;
+}
+.calc-button-row button:hover {
+    background: #3e4b5c;
+}
+#equal {
+width: 137px;
+
+}
+#description{
+
+    margin-left:1cm;
+}
